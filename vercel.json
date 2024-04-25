@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://aws.alokskj.co:8000/api/:path*"
+            "destination": "http://aws.alokskj.co:8000/api/:path*"
         },
         {
             "source": "/(.*)",
