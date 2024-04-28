@@ -27,7 +27,7 @@ const App = () => {
   return (
     <main className="min-h-screen bg-gray-50 flex justify-center items-center">
       <form onSubmit={handleSubmit} className='flex shadow-md  flex-col gap-4 border-2 p-4 py-8 rounded-2xl'>
-        <h1 className='text-xl md:text-2xl text-center font-bold my-4'>Insta Deploy by Alok Skj</h1>
+        <h1 className='text-xl md:text-2xl text-center font-bold my-4'>Insta Deploy by Sidharth Garg</h1>
         <input className='p-2.5 rounded-xl border' required type="text" placeholder='Project Name' name='subdomain' value={subdomain} onChange={(e)=> setSubdomain(e.target.value)}/>
         <input className='p-2.5 rounded-xl border' required type="text" placeholder='Git Url' value={repoUrl} onChange={(e)=> setRepoUrl(e.target.value)}/>
         <button className='p-4 bg-blue-700 text-white font-bold rounded-xl' type='submit'>Deploy</button>
